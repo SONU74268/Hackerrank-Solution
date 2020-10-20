@@ -55,6 +55,7 @@ class Decoding {
             traverese = strChar[i] == '1' ? traverese.right : traverese.left;
             if (traverese.left == null && traverese.right == null) {
                 decode += traverese.data;
+		    //here we can use print method insted of adding value in decode string
                 traverese = root;
             }
         }
