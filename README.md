@@ -1,2 +1,2 @@
 # Hackerrank-Solution
-put some hackerrank solution
+hackerrank solution
