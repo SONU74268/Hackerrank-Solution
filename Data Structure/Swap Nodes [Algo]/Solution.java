@@ -60,5 +60,6 @@ public class Solution {
             int K = sc.nextInt();
             print_nodes(root, K);
         }
+        sc.close();
     }
 }
