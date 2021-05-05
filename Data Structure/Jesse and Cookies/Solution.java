@@ -32,25 +32,26 @@ public class Solution {
             return -1;
         }
     }
+
     private static PriorityQueue<Integer> extracted() {
         PriorityQueue<Integer> queue = new PriorityQueue<>();
         return queue;
     }
+
     static boolean checkSweetness(int k, int value) {
         return (k <= value) ? true : false;
     }
 
     public static void main(String[] args) {
-       
+
         Scanner sc = new Scanner(System.in);
-        
+
         int n = sc.nextInt();
-        int [] arr = new int[n];
+        int[] arr = new int[n];
         int k = sc.nextInt();
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
 
         int result = cookies(k, arr);
 

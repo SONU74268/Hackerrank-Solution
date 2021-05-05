@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "Varargs",
+        "TestSet",
+        "Rock_Paper_Scissor",
+        "Guess_Number",
+        "Data Structure/DataType_Value_Check",
+        "Java_Hack_Qs/Java_loops_2"
+    ]
+}
