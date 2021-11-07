@@ -2,9 +2,18 @@
     "java.project.sourcePaths": [
         "Varargs",
         "TestSet",
-        "Rock_Paper_Scissor",
-        "Guess_Number",
+        "Java_Hack_Qs/Java_loops_2",
+        "Database",
+        "Data Structure/Minimum Average Waiting Time",
+        "Data Structure/Mango-tree",
         "Data Structure/DataType_Value_Check",
-        "Java_Hack_Qs/Java_loops_2"
-    ]
+        "30 days of code",
+        "Data Structure/Array"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\mysql-connector-java-8.0.24.jar"
+    ],
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.syncWithFolderExplorer": true
 }

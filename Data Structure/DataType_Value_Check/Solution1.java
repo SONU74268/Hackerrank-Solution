@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class Solution1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -25,7 +25,7 @@ public class Solution {
                 }
 
             } catch (Exception e) {
-                // TODO: handle exception
+
                 System.out.println("can't be fitted anywhere");
                 continue;
             }

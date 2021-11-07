@@ -1,23 +1,26 @@
-import java.lang.reflect.Constructor;
 import java.util.*;
-   /**
-     * Task
-     */
-     class Task {
-        int T, L;
-        Task(int t, int l) {
-            T = t;
-            L = l;
-        }
-        
+
+/**
+ * Task
+ */
+class Task {
+    int T, L;
+
+    Task(int t, int l) {
+        T = t;
+        L = l;
     }
- 
+
+}
+
 class Solution {
-    private static PriorityQueue<Task> queue = new PriorityQueue<>((l,r) -> Integer.compare(l.L, r.L)), tasks = new PriorityQueue<>((l,r) -> Integer.compare(l.L, r.L));
-     public static void main(String[] args) {
+    private static PriorityQueue<Task> queue = new PriorityQueue<>((l, r) -> Integer.compare(l.L, r.L)),
+            tasks = new PriorityQueue<>((l, r) -> Integer.compare(l.L, r.L));
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-       
+
         for (int i = 0; i < N; ++i)
             tasks.add(new Task(sc.nextInt(), sc.nextInt()));
 
@@ -32,9 +35,8 @@ class Solution {
                 queue.add(tasks.poll());
             }
         }
-        System.out.println(waiting/N);
-
+        System.out.println(waiting / N);
+        sc.close();
     }
 
- 
 }
